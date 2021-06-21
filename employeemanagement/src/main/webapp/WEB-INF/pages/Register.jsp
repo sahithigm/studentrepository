@@ -14,6 +14,7 @@ body{
 </head>
 <body>
 <h1>Registration page</h1>
+	<h1>	${msg}</h1>
 <form:form method="get" action="save" modelAttribute="employee"><br><br>
 	
 	Employee Name:<form:input path="emp_name"/><br><br>
